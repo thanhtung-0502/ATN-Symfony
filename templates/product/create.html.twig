@@ -12,8 +12,10 @@
             }
         }) }}
     </div>
-    <div class="form-group">
+    <br class="form-group">
+        <br></br>
         <label for="category">Product Name:</label>
+
         {{ form_widget(form.name,{
             'attr':{
                 'class':'form-control',
@@ -22,6 +24,7 @@
         }) }}
     </div>
     <div class="form-group">
+        <br></br>
         <label for="category">Price:</label>
         {{ form_widget(form.price,{
             'attr':{
@@ -31,6 +34,7 @@
         }) }}
     </div>
     <div class="form-group">
+        <br></br>
         <label for="description">Description:</label>
         {{ form_widget(form.description,{
             'attr':{
@@ -41,12 +45,14 @@
     </div>
 
     <div class="form-group">
+        <br></br>
         <label for="due_date">Image</label>
         {{ form_widget(form.productImage,{
 
         }) }}
     </div>
-    <input type="submit" name="create_product" value="Create" class="btn btn-primary"/>
+    <br></br>
+    <input type="submit" name="create_product" value="Add Product" class="btn btn-primary"/>
     {{ form_end(form) }}
     <br></br>
 {% endblock %}

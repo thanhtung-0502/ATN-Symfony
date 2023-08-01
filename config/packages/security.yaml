@@ -22,7 +22,7 @@ security:
                 # "login" is the name of the route created previously
                 login_path: app_login
                 check_path: app_login
-                default_target_path: app_product
+                default_target_path: app_customer
                 always_use_default_target_path: true
                 use_referer: true
                 failure_path: app_login
